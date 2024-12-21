@@ -56,4 +56,19 @@ test('Conversão de Inteiro em Romano', () => {
         const response: string = Conversor.inteiro2romano(1000)
         expect(response).toEqual('M')
     })
+
+    it('Deve converter 3574 em MMMDLXXIV', () => {
+        const response: string = Conversor.inteiro2romano(1000)
+        expect(response).toEqual('M')
+    })
+
+    it('Deve converter 126 em CXXVI', () => {
+        const response: string = Conversor.inteiro2romano(1000)
+        expect(response).toEqual('M')
+    })
+
+    it('Deve converter 92 em XLII', () => {
+        const response: string = Conversor.inteiro2romano(1000)
+        expect(response).toEqual('M')
+    })
 })
