@@ -1,6 +1,6 @@
 import { Conversor } from "../src/Conversor"
 
-test('Conversão de Inteiro em Romano', () => {
+describe('Conversão de Inteiro em Romano', () => {
 
     it('Deve converter 1 em I', () => {
         const response: string = Conversor.inteiro2romano(1)
